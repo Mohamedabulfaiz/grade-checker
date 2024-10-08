@@ -18,15 +18,15 @@ function gradeCheck(){
         error.innerHTML= " "
         display.innerHTML = "Your grade is F" 
     }
-    else if (mark.value === 60 && mark.value <= 69) {
+    else if (mark.value === 60 || mark.value <= 69) {
         error.innerHTML= " "
         display.innerHTML = "Your grade is D" 
     }
-    else if (mark.value === 70 && mark.value <= 79) {
+    else if (mark.value === 70 || mark.value <= 79) {
         error.innerHTML= " "
         display.innerHTML = "Your grade is C" 
     }
-    else if (mark.value === 80 && mark.value <= 89) {
+    else if (mark.value === 80 || mark.value <= 89) {
         error.innerHTML= " "
         display.innerHTML = "Your grade is B" 
     }
