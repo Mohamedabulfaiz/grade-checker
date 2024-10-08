@@ -1,6 +1,6 @@
 // 1.create function
 // 2.get input as in number
-// 3.check it is empty 
+// 3.check it is empty and greater than 100,less than 0
 // if empty than display invalid field
 // else display their grades according to their marks
 // clear each times
@@ -10,7 +10,7 @@ var error = document.getElementById("error")
 var display = document.getElementById("display")
 
 function gradeCheck(){
-    if (mark.value ==="" || mark.value >= 101 ){
+    if (mark.value ==="" || mark.value >= 101 || mark.value < 0){
       error.innerHTML= " Enter valid number"
       display.innerHTML= " "
     }
